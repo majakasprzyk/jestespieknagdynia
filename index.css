@@ -24,6 +24,9 @@ nav a:hover{
     background-color: chocolate;
 }
 
+nav li{
+    margin: 10px;
+}
 /* flex styles */
 
 nav ul{
