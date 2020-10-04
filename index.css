@@ -1,6 +1,5 @@
 .menu{
     width: 100%;
-    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -17,6 +16,7 @@ nav ul{
 
 nav a{
     text-decoration: none;
+    text-align: center;
     color: black;
     display: block;
     padding: 10px;
@@ -28,11 +28,12 @@ nav a:hover{
 
 /* flex styles */
 
-@media screen and (min-width: 768px){
-
-
-
     nav ul{
         display: flex;
+        justify-content: flex-start;
     }
-}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}   
