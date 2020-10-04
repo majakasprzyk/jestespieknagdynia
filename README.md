@@ -1,3 +1,3 @@
 # jfdzr2-project-1
 
-[link layout](JFDZR2-PROJEKT-1/mainpage.html)
+[Main Page Layout](JFDZR2-PROJEKT-1/mainpage.html)
