@@ -1,0 +1,38 @@
+.menu{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* menu base styles */
+
+nav{
+    background-color: rgba(219, 189, 153, 0.16);
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color: chocolate;
+}
+
+/* flex styles */
+
+@media screen and (min-width: 768px){
+
+
+
+    nav ul{
+        display: flex;
+    }
+}
