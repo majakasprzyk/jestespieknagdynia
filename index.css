@@ -1,11 +1,21 @@
-.menu{
-    width: 100%;
+*{
+    font-family: 'Lato', sans-serif;
 }
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+
+
 
 /* menu base styles */
 
 nav{
     background-color: rgba(219, 189, 153, 0.16);
+    border-radius: 30px;
 }
 
 nav ul{
@@ -21,12 +31,13 @@ nav a{
 }
 
 nav a:hover{
-    background-color: chocolate;
+    color: #91ac63;
 }
 
 nav li{
     margin: 10px;
 }
+
 
 /* flex styles */
 
@@ -45,6 +56,9 @@ nav{
 header{
     text-align: center;
 }
+header img{
+    max-width: 500px;
+}
 
 /* footer style */
 
@@ -52,3 +66,22 @@ footer{
         background-color: rgba(219, 189, 153, 0.16);
         text-align: center;
     }
+
+/* grid style */
+
+#makeup{
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: repeat(5, 200px);
+}
+
+#makeup h2{
+    grid-column: 4 / 6;
+    grid-row: 1 / 2;
+}
+
+#makeup img{
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+}
