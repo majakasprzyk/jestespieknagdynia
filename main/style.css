@@ -11,7 +11,7 @@ img{
 }
 
 
-/* menu base styles */
+/* menu styles */
 
 .menu{
     background-color: rgba(219, 189, 153, 0.16);
@@ -22,7 +22,6 @@ img{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
 .menu a{
@@ -88,11 +87,9 @@ main p{
 
 }
 
-
-
 footer{
     background-color: rgba(219, 189, 153, 0.16);
-    margin: 15px 0;
+    margin: 15px 0 0;
 }
 
 .fb{
