@@ -39,6 +39,8 @@ img{
 header{
     text-align: center;
     font-style: italic;
+    padding: 10px;
+    margin: 20px 0;
 }
 
 main{
@@ -80,7 +82,7 @@ h2{
 
 }
 
-p{
+main p{
     text-align: justify;
     padding: 5px 35px;
 
@@ -90,7 +92,26 @@ p{
 
 footer{
     background-color: rgba(219, 189, 153, 0.16);
- 
     margin: 15px 0;
+}
 
+.fb{
+    text-align: center;
+    padding: 5px;
+}
+.fb:hover{
+    background-color: #3b5998;
+}
+.instagram{
+    text-align: center;
+    padding: 5px;
+
+}
+.instagram:hover{
+    background-color: #fb3958;
+}
+
+footer p{
+    text-align: center;
+    padding: 5px;
 }
