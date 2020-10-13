@@ -28,7 +28,7 @@ img{
 .menu a{
     text-decoration: none;
     display: block;
-    font-size: 15px;
+    font-size: 17px;
     padding: 20px;
 }
 
@@ -41,14 +41,56 @@ header{
     font-style: italic;
 }
 
-/* grid style */
-
 main{
     display: flex;
     justify-content: center;
+    gap: 20px;
+    
 }
+.makeup{
+    display: flex;
+    flex-flow: column;
+    max-width: 300px;
+    background-color: rgba(219, 189, 153, 0.16);
+}
+
+.cosmetic{
+    display: flex;
+    flex-flow: column;
+    max-width: 300px;
+    background-color: rgba(219, 189, 153, 0.16);
+}
+
+.natural{
+    display: flex;
+    flex-flow: column;
+    max-width: 300px;
+    background-color: rgba(219, 189, 153, 0.16);
+}
+
+i{
+    text-align: center;
+    padding: 15px;
+
+}
+
+h2{
+    text-align: center;
+    padding: 15px;
+
+}
+
+p{
+    text-align: justify;
+    padding: 5px 35px;
+
+}
+
+
 
 footer{
     background-color: rgba(219, 189, 153, 0.16);
-    text-align: center;
+ 
+    margin: 15px 0;
+
 }
