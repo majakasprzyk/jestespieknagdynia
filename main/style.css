@@ -44,15 +44,9 @@ header{
 /* grid style */
 
 main{
-    display:grid;
-    max-width:100%;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    display: flex;
+    justify-content: center;
 }
-
-
-
-
 
 footer{
     background-color: rgba(219, 189, 153, 0.16);
