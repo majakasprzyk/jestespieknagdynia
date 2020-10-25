@@ -8,6 +8,8 @@
 
 img{
     width: 100%;
+    height: auto;
+
 }
 
 /* menu styles */
@@ -33,12 +35,6 @@ img{
 .menu a:hover{
     color: #91ac63;
 }
-
-
-/* mobile */
-
-@media (max-width: 499px){
-
 .category{
     display: block;
     text-align: center;
@@ -48,6 +44,24 @@ h1{
     font-size: 15px;
     padding: 10px;
 }
+hr{
+    height: 10px;
+    background-color: rgba(219, 189, 153, 0.16);
+    border: 0px;
+    margin: 5px;
+
+}
+p{
+    text-align: center;
+}
+/* mobile */
+
+@media (max-width: 499px){
+
+/* .salon-img{
+    display: block;
+    margin: 10px;
+} */
 
 
 
