@@ -10,21 +10,43 @@ img{
     width: 100%;
 }
 
+/* menu styles */
+
 .menu{
     background-color: rgba(219, 189, 153, 0.16);
 }
 
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .menu a{
     text-decoration: none;
-
+    display: block;
+    font-size: 17px;
+    padding: 20px;
 }
+
+.menu a:hover{
+    color: #91ac63;
+}
+
 
 /* mobile */
 
 @media (max-width: 499px){
 
-nav{
-    display: flexbox;
+.category{
+    display: block;
+    text-align: center;
+}
+h1{
+    display: inline;
+    font-size: 15px;
+    padding: 10px;
 }
 
 
