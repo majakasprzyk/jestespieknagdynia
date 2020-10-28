@@ -9,6 +9,7 @@
 img{
     width: 100%;
     height: auto;
+    padding: 5px;
 }
 
 .logo{
@@ -56,8 +57,7 @@ hr{
     background-color: rgba(219, 189, 153, 0.16);
     border: 0px;
     margin: 5px;
-
-}
+   }
 p{
     text-align: center;
 }
