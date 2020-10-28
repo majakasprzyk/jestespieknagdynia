@@ -1,0 +1,33 @@
+/* medium */
+
+@media (min-width: 500px) and (max-width: 799px){
+
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+    
+    .gallery img{
+        max-width: 48%;
+    }
+}
+/* large */
+
+@media (min-width: 800px){
+
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .gallery img{
+        max-width: 31%;
+        padding: 10px;
+        
+    }
+}
