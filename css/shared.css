@@ -43,24 +43,7 @@ img{
 .menu a:hover{
     color: #91ac63;
 }
-.category{
-    display: block;
-    text-align: center;
-}
-h1{
-    display: inline;
-    font-size: 15px;
-    padding: 10px;
-}
-hr{
-    height: 10px;
-    background-color: rgba(219, 189, 153, 0.16);
-    border: 0px;
-    margin: 5px;
-   }
-p{
-    text-align: center;
-}
+
 
 /* footer style */
 
