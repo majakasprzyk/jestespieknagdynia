@@ -1,0 +1,54 @@
+
+
+header{
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.makeup{
+    display: flex;
+    flex-flow: column;
+    max-width: 300px;
+    background-color: rgba(219, 189, 153, 0.16);
+}
+
+.cosmetic{
+    display: flex;
+    flex-flow: column;
+    max-width: 300px;
+    background-color: rgba(219, 189, 153, 0.16);
+}
+
+.natural{
+    display: flex;
+    flex-flow: column;
+    max-width: 300px;
+    background-color: rgba(219, 189, 153, 0.16);
+}
+
+i{
+    text-align: center;
+    padding: 15px;
+
+}
+
+h2{
+    text-align: center;
+    padding: 15px;
+
+}
+
+main p{
+    text-align: justify;
+    padding: 5px 35px;
+
+}
+
