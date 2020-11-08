@@ -6,8 +6,6 @@
     margin-left: 60px;
     margin-right: 60px;
     background-color: rgba(219, 189, 153, 0.16);
-
-   
 }
 
 h1{
@@ -19,4 +17,20 @@ input{
     width: 100%;
     display: block;
 
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-box{
+    display: block;
+    background-color: rgba(219, 189, 153, 0.16);
+}
+
+.data{
+    display: block;
+    background-color: rgba(219, 189, 153, 0.16);
+    padding: 10px;
 }
