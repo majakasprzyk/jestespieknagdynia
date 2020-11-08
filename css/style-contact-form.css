@@ -33,4 +33,9 @@ input{
     display: block;
     background-color: rgba(219, 189, 153, 0.16);
     padding: 10px;
+    text-align: center;
+}
+
+.data p{
+    padding: 5px;
 }
