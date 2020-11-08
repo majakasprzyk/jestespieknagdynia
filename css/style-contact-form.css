@@ -27,6 +27,11 @@ input{
 .form-box{
     display: block;
     background-color: rgba(219, 189, 153, 0.16);
+    padding: 10px;
+}
+
+label{
+    padding: 10px;
 }
 
 .data{
@@ -38,4 +43,9 @@ input{
 
 .data p{
     padding: 5px;
+}
+
+button{
+    padding: 5px;
+    cursor: pointer;
 }
