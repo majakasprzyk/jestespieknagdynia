@@ -1,3 +1,4 @@
 # jfdzr2-project-1
 
-[Main Page Layout](index.html)
+
+[Link do L1](https://majakasprzyk.github.io/jfdzr2-project-1/)
