@@ -17,15 +17,31 @@
   width: 80%;
 }
 
-h1 {
-  display: inline;
-  font-size: 15px;
-  padding: 10px;
+.tabs {
+  display: flex;
+  justify-content: center;
 }
 
-.category {
-  display: block;
-  text-align: center;
+.tabs .btn {
+  width: 33.333%;
+  border: none;
+  background-color: #bba598;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 20px;
+  cursor: pointer;
+  letter-spacing: 5px;
+}
+
+.tabs .btn:focus {
+  outline: none;
+}
+
+.tabs .btn.active {
+  background-color: #91b37f;
+  color: white;
+  transition: 0.3s;
 }
 
 /* medium */
