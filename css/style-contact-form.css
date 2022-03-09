@@ -32,7 +32,7 @@ input {
 
 #container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: rgba(219, 189, 153, 0.16);
 }
 
